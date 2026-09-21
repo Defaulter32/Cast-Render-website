@@ -1,0 +1,6 @@
+{
+  "name": "Cast & Render — 3D Object Studio",
+  "description": "Scroll-scrubbed video landing page for Cast & Render, featuring frame-by-frame scrubbing and cross-fading typography panels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

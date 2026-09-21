@@ -1,11 +1,26 @@
-<div align="center">
+# Cast & Render — 3D Object Studio
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A scroll-scrubbed video landing page featuring frame-by-frame scrubbing and sequential cross-fading typography panels.
 
-  <h1>Built with AI Studio</h2>
+## Deploying to Vercel
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+This project is configured for one-click deployment to [Vercel](https://vercel.com).
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### Option 1: Vercel CLI
+```bash
+npm install -g vercel
+vercel
+```
 
-</div>
+### Option 2: Git Integration (GitHub / GitLab / Bitbucket)
+1. Push this repository to your Git provider.
+2. Go to [Vercel Dashboard](https://vercel.com/new).
+3. Import this repository.
+4. Vercel will automatically detect the configuration from `vercel.json`:
+   - **Framework Preset**: Vite
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+5. Click **Deploy**.
+
+### Option 3: Direct Static Hosting
+Because `index.html` is completely self-contained with embedded CSS and vanilla JS, you can also deploy `index.html` directly to any static file host without running a build step.
